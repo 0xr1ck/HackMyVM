@@ -119,7 +119,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 two interesting ports ssh on `21` and http on port `5000`which is a panel 
 has directories `scan` and `payload`, scan does a nmap scan on a input target, its vulnerable to the classic `command injection`  by sumbmitting `; ls`  lists all the files and directories payload  `; ls -la`
 
-![[cmdj.png]]
+![[[cmdj.png](https://github.com/0xr1ck/HackMyVM/blob/main/attachments/cmdj.png)]]
 
 cool, get the user.txt `hmv{7609a0e2e5bf272609dd3e12727eed76}` cool sorted 
 now let chase that `# root`   dopamine. 
